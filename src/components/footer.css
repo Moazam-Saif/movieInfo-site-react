@@ -1,0 +1,86 @@
+/* Reset Styles */
+body, h1, h2, h3, p, ul, li, a, input {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 40px 20px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+/* Left Section */
+.footer-left {
+    flex: 1;
+    max-width: 250px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.payment-icons img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+/* Footer Columns */
+.footer-column {
+    flex: 1;
+    max-width: 200px;
+}
+
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #ffffff;
+    border-bottom: 2px solid gray;
+    padding-bottom: 5px;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #bdbdbd;
+    font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+    color: white;
+}
+
+/* Newsletter */
+.footer-column input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    border: none;
+    background: #333;
+    color: white;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #777;
+    border-top: 1px solid gray;
+    padding-top: 10px;
+}

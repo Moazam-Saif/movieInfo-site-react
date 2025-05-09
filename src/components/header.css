@@ -1,0 +1,60 @@
+/* Reset Styles */
+body, h1, h2, h3, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+/* Top Bar */
+.top-bar {
+    background-color: #1c1c1c;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.top-bar .auth-links a {
+    color: #a3a3ff;
+    margin-left: 15px;
+    font-weight: bold;
+}
+
+/* Navbar */
+.navbar {
+    background-color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6a5acd;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: black;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover,
+.nav-links .active {
+    color: #6a5acd;
+}
